@@ -547,7 +547,7 @@ a:hover {
 /*******************/
 .split .area-1 {
 	height: 430px;
-	background: url('../images/details-background.jpg') center center no-repeat;
+	background: url('../images/divabg.jpg') center center no-repeat;
 	background-size: cover;
 }
 
@@ -888,6 +888,27 @@ a:hover {
 	color: #ffffff;
 }
 
+/*********************/
+/*  DOWNLOAD BUTTON  */
+/*********************/
+.download-btn{
+	margin: 100px;
+}
+
+a.pricedownload {
+	background-color: #ff225c;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 30px 80px;
+	font-size: 3rem;
+	border-radius: 100px;
+}
+
+a.pricedownload:hover {
+	background-color: #e60843;
+	filter: drop-shadow(0px 0px 10px #d690ad);
+}
+
 
 /*********************/
 /*     Copyright     */
@@ -991,6 +1012,35 @@ a:hover {
 	margin-bottom: 0.5rem;
 }
 
+/*************************/
+/*      LOGO CARDS       */
+/*************************/	
+.logo-container{
+	display: flex;
+	flex-wrap: wrap;
+	width: 90%;
+	justify-content: center;
+	
+}
+
+.logo-card{
+	width: 15%;
+	margin: 40px 80px;
+}
+
+.logo-card img{
+	width: 150%;
+}
+
+h3.logo-name{
+	margin-top: 20px;
+	color: #ff225c;
+}
+
+p.logo-descp{
+width: 400px;
+}
+
 
 /*************************/
 /*     Media Queries     */
@@ -1015,7 +1065,7 @@ a:hover {
 	}
 
 	.counter .purecounter {
-		font-size: 6rem;
+		font-size: 4rem;
 		line-height: 4rem;
 	}
 	/* end of statistics */
@@ -1356,7 +1406,7 @@ a:hover {
 
 	/* Statistics */
 	.counter .counter-cell {
-		margin-right: 3.5rem;
+		margin-right: 1rem;
 		margin-left: 3.5rem;
 	}
 	
